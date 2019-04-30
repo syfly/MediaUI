@@ -1,0 +1,6 @@
+framework module Pods_MediaUI_Tests {
+  umbrella header "Pods-MediaUI_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

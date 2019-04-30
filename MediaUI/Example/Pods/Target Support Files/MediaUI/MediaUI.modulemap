@@ -1,0 +1,6 @@
+framework module MediaUI {
+  umbrella header "MediaUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

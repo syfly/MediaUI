@@ -1,0 +1,22 @@
+{
+  "name": "MediaUI",
+  "version": "0.1.0",
+  "summary": "A short description of MediaUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ts/MediaUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ts": "151813483@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ts/MediaUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MediaUI/Classes/**/*"
+}
