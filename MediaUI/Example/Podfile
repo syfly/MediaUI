@@ -4,7 +4,9 @@ platform :ios, '8.0'
 
 target 'MediaUI_Example' do
   pod 'MediaUI', :path => '../'
-
+  pod 'BATabBarController', :path => 'ThirdParty'
+  pod 'Masonry'
+  
   target 'MediaUI_Tests' do
     inherit! :search_paths
 

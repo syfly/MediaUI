@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51BD490622795D8500AF67BD /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48F322795D8500AF67BD /* FourViewController.m */; };
+		51BD490722795D8500AF67BD /* EightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48F522795D8500AF67BD /* EightViewController.m */; };
+		51BD490822795D8500AF67BD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48F722795D8500AF67BD /* BaseViewController.m */; };
+		51BD490922795D8500AF67BD /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48F822795D8500AF67BD /* FiveViewController.m */; };
+		51BD490A22795D8500AF67BD /* ThidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48FB22795D8500AF67BD /* ThidViewController.m */; };
+		51BD490B22795D8500AF67BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48FC22795D8500AF67BD /* FirstViewController.m */; };
+		51BD490C22795D8500AF67BD /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD48FE22795D8500AF67BD /* SixViewController.m */; };
+		51BD490D22795D8500AF67BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD490122795D8500AF67BD /* SecondViewController.m */; };
+		51BD490E22795D8500AF67BD /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD490222795D8500AF67BD /* SevenViewController.m */; };
+		51BD490F22795D8500AF67BD /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD490522795D8500AF67BD /* ParentViewController.m */; };
+		51BD491322795DEA00AF67BD /* SPPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD491122795DEA00AF67BD /* SPPageMenu.m */; };
+		51BD491722795E2700AF67BD /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD491522795E2700AF67BD /* JSBadgeView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,9 +50,33 @@
 
 /* Begin PBXFileReference section */
 		0000CB03E6F0182F36F9751B /* Pods-MediaUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-MediaUI_Example/Pods-MediaUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		09B929624EF84110EAABB9DD /* MediaUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MediaUI.podspec; path = ../MediaUI.podspec; sourceTree = "<group>"; };
+		09B929624EF84110EAABB9DD /* MediaUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MediaUI.podspec; path = ../MediaUI.podspec; sourceTree = "<group>"; };
 		2AFB1586864C312CF4A7619D /* Pods-MediaUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-MediaUI_Tests/Pods-MediaUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4DD5CA1C2A13C4A9511E3502 /* Pods-MediaUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MediaUI_Tests/Pods-MediaUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		51BD48F122795D8500AF67BD /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		51BD48F322795D8500AF67BD /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		51BD48F422795D8500AF67BD /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		51BD48F522795D8500AF67BD /* EightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightViewController.m; sourceTree = "<group>"; };
+		51BD48F622795D8500AF67BD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		51BD48F722795D8500AF67BD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		51BD48F822795D8500AF67BD /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		51BD48F922795D8500AF67BD /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		51BD48FA22795D8500AF67BD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		51BD48FB22795D8500AF67BD /* ThidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThidViewController.m; sourceTree = "<group>"; };
+		51BD48FC22795D8500AF67BD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		51BD48FD22795D8500AF67BD /* EightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightViewController.h; sourceTree = "<group>"; };
+		51BD48FE22795D8500AF67BD /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		51BD48FF22795D8500AF67BD /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		51BD490022795D8500AF67BD /* ThidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThidViewController.h; sourceTree = "<group>"; };
+		51BD490122795D8500AF67BD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		51BD490222795D8500AF67BD /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		51BD490322795D8500AF67BD /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		51BD490422795D8500AF67BD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		51BD490522795D8500AF67BD /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		51BD491122795DEA00AF67BD /* SPPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPageMenu.m; sourceTree = "<group>"; };
+		51BD491222795DEA00AF67BD /* SPPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPageMenu.h; sourceTree = "<group>"; };
+		51BD491522795E2700AF67BD /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
+		51BD491622795E2700AF67BD /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MediaUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +100,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88B2732A6FDBC23B0BEEC299 /* Pods_MediaUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediaUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		944994BE9B80749DC959C47E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		944994BE9B80749DC959C47E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7D0A4DC3385E6F43FCC59CC /* Pods_MediaUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediaUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88F653E8A3617A7635BCBA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C88F653E8A3617A7635BCBA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +131,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51BD48F022795D6100AF67BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51BD491422795E2700AF67BD /* JSBadgeView */,
+				51BD491022795DEA00AF67BD /* SPPageMenu */,
+				51BD48F222795D8500AF67BD /* ChildViewControllers */,
+				51BD48F122795D8500AF67BD /* ParentViewController.h */,
+				51BD490522795D8500AF67BD /* ParentViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		51BD48F222795D8500AF67BD /* ChildViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51BD48F322795D8500AF67BD /* FourViewController.m */,
+				51BD48F422795D8500AF67BD /* SixViewController.h */,
+				51BD48F522795D8500AF67BD /* EightViewController.m */,
+				51BD48F622795D8500AF67BD /* FirstViewController.h */,
+				51BD48F722795D8500AF67BD /* BaseViewController.m */,
+				51BD48F822795D8500AF67BD /* FiveViewController.m */,
+				51BD48F922795D8500AF67BD /* SevenViewController.h */,
+				51BD48FA22795D8500AF67BD /* SecondViewController.h */,
+				51BD48FB22795D8500AF67BD /* ThidViewController.m */,
+				51BD48FC22795D8500AF67BD /* FirstViewController.m */,
+				51BD48FD22795D8500AF67BD /* EightViewController.h */,
+				51BD48FE22795D8500AF67BD /* SixViewController.m */,
+				51BD48FF22795D8500AF67BD /* FourViewController.h */,
+				51BD490022795D8500AF67BD /* ThidViewController.h */,
+				51BD490122795D8500AF67BD /* SecondViewController.m */,
+				51BD490222795D8500AF67BD /* SevenViewController.m */,
+				51BD490322795D8500AF67BD /* FiveViewController.h */,
+				51BD490422795D8500AF67BD /* BaseViewController.h */,
+			);
+			path = ChildViewControllers;
+			sourceTree = "<group>";
+		};
+		51BD491022795DEA00AF67BD /* SPPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				51BD491122795DEA00AF67BD /* SPPageMenu.m */,
+				51BD491222795DEA00AF67BD /* SPPageMenu.h */,
+			);
+			path = SPPageMenu;
+			sourceTree = "<group>";
+		};
+		51BD491422795E2700AF67BD /* JSBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				51BD491522795E2700AF67BD /* JSBadgeView.m */,
+				51BD491622795E2700AF67BD /* JSBadgeView.h */,
+			);
+			path = JSBadgeView;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				51BD48F022795D6100AF67BD /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for MediaUI */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -193,7 +285,6 @@
 				4DD5CA1C2A13C4A9511E3502 /* Pods-MediaUI_Tests.debug.xcconfig */,
 				2AFB1586864C312CF4A7619D /* Pods-MediaUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,15 +391,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MediaUI_Example-checkManifestLockResult.txt",
 			);
@@ -322,15 +409,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MediaUI_Tests-checkManifestLockResult.txt",
 			);
@@ -346,10 +429,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MediaUI_Example/Pods-MediaUI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BATabBarController/BATabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/MediaUI/MediaUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BATabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MediaUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,8 +452,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MediaAppDelegate.m in Sources */,
+				51BD490B22795D8500AF67BD /* FirstViewController.m in Sources */,
+				51BD490F22795D8500AF67BD /* ParentViewController.m in Sources */,
+				51BD491722795E2700AF67BD /* JSBadgeView.m in Sources */,
+				51BD490822795D8500AF67BD /* BaseViewController.m in Sources */,
+				51BD491322795DEA00AF67BD /* SPPageMenu.m in Sources */,
 				6003F5A7195388D20070C39A /* MediaViewController.m in Sources */,
+				51BD490E22795D8500AF67BD /* SevenViewController.m in Sources */,
+				51BD490622795D8500AF67BD /* FourViewController.m in Sources */,
+				51BD490722795D8500AF67BD /* EightViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				51BD490922795D8500AF67BD /* FiveViewController.m in Sources */,
+				51BD490D22795D8500AF67BD /* SecondViewController.m in Sources */,
+				51BD490A22795D8500AF67BD /* ThidViewController.m in Sources */,
+				51BD490C22795D8500AF67BD /* SixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

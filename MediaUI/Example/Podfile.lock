@@ -1,16 +1,29 @@
 PODS:
+  - BATabBarController (0.1.5):
+    - Masonry
+  - Masonry (1.1.0)
   - MediaUI (0.1.0)
 
 DEPENDENCIES:
+  - BATabBarController (from `ThirdParty`)
+  - Masonry
   - MediaUI (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
 EXTERNAL SOURCES:
+  BATabBarController:
+    :path: ThirdParty
   MediaUI:
     :path: "../"
 
 SPEC CHECKSUMS:
+  BATabBarController: 5613abe7e9e840e4d47deecef6f5082187b24ecf
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MediaUI: a1c53a9ff6fce8419affce0aec5af0c20b97e5b2
 
-PODFILE CHECKSUM: d4310f15ed8d7cf556aea02e8d5352313e0c73d0
+PODFILE CHECKSUM: 480ea7b21f02ea84c62694f585eb6bfa294ba96b
 
 COCOAPODS: 1.7.0.beta.3
